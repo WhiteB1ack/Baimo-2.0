@@ -1,9 +1,13 @@
-<script>
-const res = await fetch('http://localhost:3000/api/hello')
-const data = await res.json()
-console.log(data.message)
+<template>
+  <DefaultLayout />
+</template>
+
+<script lang="ts" setup>
+import DefaultLayout from './layouts/DefaultLayout.vue';
+
 </script>
 
-<template>
-  <h1>Hello This is Baimo 2.0</h1>
-</template>
+<style>
+
+
+</style>
