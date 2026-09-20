@@ -1,17 +1,18 @@
-import express from "express";
-import cors from 'cors'
+import { Hono } from 'hono'
 
-const app = express()
+const app = new Hono()
 
-app.use(cors())
-app.use(express.json())
-
-app.get('/api/hello', (_req, res) => {
-  res.json({
-    message: 'Hello from server!',
+app.get('/', (c) => {
+  return c.json({
+    name: 'Baimo2 API',
+    message: 'Hello from Hono'
   })
 })
 
-app.listen(3000, () => {
-  console.log('Server running at http://localhost:3000')
+app.get('/api/hello', (c) => {
+  return c.json({
+    message: 'Hello Baimo2'
+  })
 })
+
+export default app
