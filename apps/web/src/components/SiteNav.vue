@@ -4,8 +4,8 @@
 
 const navItems = [
   {
-    label: 'calender.',
-    to: '/calender'
+    label: 'lab.',
+    to: '/lab'
   },
   {
     label: 'projects.',
@@ -16,16 +16,16 @@ const navItems = [
     to: '/code'
   },
   {
-    label: 'bio.',
+    label: 'about.',
     to: '/about'
   },
   {
-    label: 'contact',
-    to: '/contact'
+    label: 'calender',
+    to: '/calender'
   },  
   {
-    label: 'new.',
-    to: '/blog'
+    label: 'links.',
+    to: '/links'
   }  
 ]
 </script>

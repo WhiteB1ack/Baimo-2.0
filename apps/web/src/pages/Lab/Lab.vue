@@ -1,7 +1,8 @@
 <template>
   <div id="pagetitle">
     <h1>Baimo and Collaborators</h1>
-    <h2>About</h2>
+    <h2>Lab</h2>
   </div>  
-  <h3>Hello, This My About</h3>
+
+  <h3>Hello, This is my Lab</h3>
 </template>

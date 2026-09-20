@@ -52,42 +52,53 @@
 <script setup lang="ts">
 const projects = [
   {
-    title: 'Phase Study I',
-    date:  'Jun | 2026',
+    title: '01-Shader-Shaping Function',
+    date:  'Jun. | 2026',
     image: '/images/Phase Study I.png',
-    path:  '/projects/phase-study-1'
+    path:  '/projects/shader/theBookofShader/01_shapingFunction'
   },
   {
-    title: 'Shape Study I',
-    date:  'Jun | 2026',
+    title: '03-Shader-Shapes',
+    date:  'Jun. | 2026',
     image: '/images/Shapes Study I.png',
-    path:  '/projects/phase-study-2'
+    path:  '/projects/shader/theBookofShader/03_shapes'
   },  
   {
-    title: 'Phase Study II - HSB',
+    title: '02-Shader-Colors',
     date:  'Studying',
     image: '/images/Phase Study II.png',
-    path:  '/projects/phase-study-2'
+    path:  '/projects/shader/theBookofShader/02_Colors'
   },
   {
-    title: 'Blender Study I',
-    date:  'Jul | 2026',
+    title: '00-Blender-Flag',
+    date:  'Aug. | 2026',
+    image: '/images/default1.jpg',
+    path:  '/projects/blender/00_blenderFlag'
+  },    
+  {
+    title: '01-Blender-Firefox',
+    date:  'Jul. | 2026',
     image: '/images/Blender-Study-01.png',
-    path:  '/projects/blender-study-1'
+    path:  '/projects/blender/01_Foxes'
+  },
+  {
+    title: '02-Blender-Hollow Knight',
+    date:  'Aug. | 2026',
+    image: '/images/hollowknight.jpg',
+    path:  '/projects/blender/02_HollowKnight'
   },
   {
     title: 'ASCII Study I',
-    date:  'Jul | 2026',
+    date:  'Jul. | 2026',
     image: '/images/baimo.jpg',
     path:  '/projects/ascii-study-1'
   },
   {
-    title: 'Blender Flag I',
-    date:  'Aug | 2026',
-    image: '/images/hollowknight.jpg',
-    path:  ''
-  },
-
+    title: '03-Blender-GirlinWheats',
+    date: 'Spe. | 2026',
+    image: '/images/Girlwheats.png',
+    path: '/projects/blender/03_GirlinWheats'
+  }
 ]
 </script>
 
